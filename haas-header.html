@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Haas Header</title>
+<style>
+#haas-header {
+	font-family: Verdana;
+	width: 980px;
+	height: 100px;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-bottom: 3px solid #d7d7d7;
+}
+#haas-logo {
+	float: left;
+	width: 200px;
+	height: 68px;
+	margin-top: 15px;
+}
+#search-parent {
+	height: 60px;
+}
+#search-box {
+	float: right;
+	width: 165px;
+	height: 25px;
+	border: 1px solid #d7d7d7;
+	font-size: 9px;
+	margin-top: 9px;
+	font-style:italic;
+	padding-left: 9px;
+	opacity: .5;
+}
+#haas-navbar {
+	background-color: white;
+	float: left;
+	width: 750px;
+	margin-left: 30px;
+}
+.haas-navbar-menu {
+	background: white;
+	list-style: none;
+	margin-left: -40px;
+}
+.haas-navbar-menu > li {
+	margin-right: 18px;
+	float: left;
+}
+.haas-navbar-menu > li:hover > a {
+	padding-bottom: 9px;
+	border-bottom: 1px solid #0971ce;
+}
+.haas-navbar-menu > li > a {
+	color: #787878;
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 10px;
+	color: #206fb7;
+}
+.haas-navbar-submenu {
+	top: 85px;
+	position: absolute;
+	display: none;
+	list-style: none;
+}
+.haas-navbar-menu > li:hover > ul {
+	display: block;
+	background: #f2f2f2;
+	border: 1px solid #ccccc;
+	color: #787878;
+	margin-top: 5px;
+}
+.haas-navbar-submenu > li {
+	border: 1px solid #cccccc;
+	padding-left: 15px;
+	padding-right: 30px;
+	margin-left: -40px;
+}
+.haas-navbar-submenu > li > a {
+	font-weight: bold;
+	color: #787878;
+	text-decoration: none;
+	font-size: 11px;
+}
+</style>
+</head>
+
+<body>
+<div id="haas-header"><img id="haas-logo" src="./haas-logo.svg"/>
+    <div id="search-parent">
+    <input id="search-box" value="Search" type="search" name="googlesearch">
+    <div>
+	<nav id="haas-navbar">
+		<ul class="haas-navbar-menu">
+			<li><a href="#">PROGRAMS</a>
+				<ul class="haas-navbar-submenu">
+					<li><a href="#">Full-Time MBA</a></li>
+                    <li><a href="#">Evening & Weekend MBA</a></li>
+                    <li><a href="#">Web Design</a></li>
+                </ul>
+            </li>
+            <li><a href="#">FACULTY & RESEARCH</a></li>
+            <li><a href="#">ABOUT HAAS</a></li>
+            <li><a href="#">INSTITUTES & CENTERS</a></li>
+            <li><a href="#">EXECUTIVE EDUCATION</a></li>
+            <li><a href="#">GIVE TO HAAS</a></li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>
